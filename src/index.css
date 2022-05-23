@@ -1,13 +1,13 @@
 body {
-  background:whitesmoke;
+  background:cornsilk;
   font-family:Arial;
 }
 
 .menu {
     width:90vw;
     height: auto;
-    margin:20px 10px;
     text-align: center;
+    margin: 20px auto;
 }
 
 .title {
@@ -38,9 +38,12 @@ body {
 }
 
 .menu-item {
-  width:310px;
+  width:710px;
   display:grid;
   gap: 0 20px;
+  background-color: #fff;
+  border-radius: 10px;
+
 }
 
 .item-header {
