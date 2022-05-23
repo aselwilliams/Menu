@@ -1,13 +1,21 @@
-import React from 'react'
+import React from "react";
 
-function Categories({categories, filterByCategory}) {
-    return (
-        <div className='btn-container'>
-        {categories.map((category,index)=>{
-            return <button key={index} className='filter-btn' onClick={()=>filterByCategory(category)}>{category}</button>
-        })}
+function Categories({ categories, filterByCategory }) {
+  return (
+    <div className="btn-container">
+      {categories.map((category, index) => {
+        return (
+          <button
+            key={index}
+            className="filter-btn"
+            onClick={() => filterByCategory(category)}
+          >
+            {category}
+          </button>
+        );
+      })}
     </div>
-  )
+  );
 }
 
-export default Categories
+export default Categories;

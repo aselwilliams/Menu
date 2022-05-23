@@ -1,89 +1,89 @@
 body {
-  background:cornsilk;
-  font-family:Arial;
+  background: cornsilk;
+  font-family: Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .menu {
-    width:90vw;
-    height: auto;
-    text-align: center;
-    margin: 20px auto;
+  width: 90vw;
+  height: auto;
+  text-align: center;
+  margin: 20px auto;
 }
 
 .title {
-  text-align:center;
+  text-align: center;
 }
 
 .underline {
-  margin:auto;
+  margin: auto;
   border-top: solid 3px #c59d55;
-  width:100px;
-  margin-bottom:15px;
+  width: 100px;
+  margin-bottom: 15px;
 }
 
 .item-location {
-  display:grid;
-  grid-template-columns:repeat(2,1fr);
-  gap:50px;
-  width:1200px;
-  text-align:center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  width: 1200px;
+  text-align: center;
 }
 
 .photo {
-  width:300px;
-  height:220px;
-  border:#c59d55 3px solid;
+  width: 300px;
+  height: 220px;
+  border: #c59d55 3px solid;
   border-radius: 15px;
   object-fit: cover;
 }
 
 .menu-item {
-  width:710px;
-  display:grid;
+  width: 710px;
+  display: grid;
   gap: 0 20px;
   background-color: #fff;
   border-radius: 10px;
-
+  box-shadow: 5px 5px 13px 5px rgba(238, 175, 166, 0.62);
 }
 
 .item-header {
-  width:300px;
-  display:flex;
+  width: 300px;
+  display: flex;
   justify-content: space-between;
-  align-items:center;
+  align-items: center;
   text-transform: capitalize;
   border-bottom: 2px dotted #333;
 }
 
 .item-info {
-  width:300px;
-  margin-left:8px;
+  width: 300px;
+  margin-left: 8px;
 }
 
 .price {
-  color:#c59d55;
+  color: #c59d55;
 }
-.para{
+.para {
   text-align: left;
   width: 300px;
 }
 .btn-container {
-  text-align:center;
-  margin:30px;
+  text-align: center;
+  margin: 30px;
 }
 
 .filter-btn {
-  border:2px solid #c59d55;
-  background:transparent;
-  color:#c59d55;
-  padding:10px;
-  border-radius:8px;
-  margin:5px; 
+  border: 2px solid #c59d55;
+  background: transparent;
+  color: #c59d55;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 5px;
 }
 
 .filter-btn:hover {
-  color:white;
-  background:#c59d55;
+  color: white;
+  background: #c59d55;
 }
 
 @media screen and (min-width: 768px) {
@@ -106,8 +106,8 @@ body {
     height: 175px;
   }
 
-  .item-info{
-  width:230px;
-  margin:5px 8px;
-}
+  .item-info {
+    width: 230px;
+    margin: 5px 8px;
+  }
 }
