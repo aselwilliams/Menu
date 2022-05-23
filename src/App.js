@@ -1,5 +1,6 @@
 import {useState} from 'react';
 import './App.css';
+import menu from './data'
 
 function App() {
   const [menuItems, setMenuItems] = useState(items);
@@ -12,7 +13,7 @@ function App() {
         <div className="underline"></div>
         </div>
         <Categories />
-        <Menu />
+        <Menu menuItems={menuItems} />
       </section>
     </main>
   );
